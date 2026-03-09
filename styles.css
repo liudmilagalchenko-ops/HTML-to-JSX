@@ -130,6 +130,21 @@ body {
     background-color: #333;
 }
 
+.download-button.outline {
+    background-color: #ffffff;
+    border: 2px solid #828337; 
+}
+
+.download-button.outline:active {
+    background-color: #ffffff;
+    border: 2px solid #828337; 
+}
+
+.download-button.outline:hover {
+    background-color: #e2e2e2;
+    border: 2px solid#828337; 
+}
+
 .page-label {
     position: fixed;
     top: 16px;
