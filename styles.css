@@ -1,9 +1,11 @@
+/* Global reset so spacing is consistent in all browsers */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Page background and main layout centering the pricing cards */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     background-color: #f7f7f4;
@@ -14,6 +16,7 @@ body {
     padding: 20px;
 }
 
+/* Horizontal flex row that holds all pricing cards */
 .cards-container {
     display: flex;
     flex-direction: row;
@@ -23,6 +26,7 @@ body {
     align-items: flex-start;
 }
 
+/* Single pricing card block */
 .card {
     display: flex;
     flex-direction: column;
@@ -34,11 +38,13 @@ body {
     flex-shrink: 0;
 }
 
+/* Top part of the card: title, price and description */
 .card-top {
     display: flex;
     flex-direction: column;
 }
 
+/* Plan name typography */
 .card-title {
     font-size: 22px;
     line-height: 28px;
@@ -47,6 +53,7 @@ body {
     margin-bottom: 8px;
 }
 
+/* Price line styling (amount + /mo label) */
 .card-price {
     font-size: 20px;
     color: rgba(38, 37, 30, 0.5);
@@ -65,16 +72,19 @@ body {
     color: rgba(38, 37, 30, 0.5);
 }
 
+/* Space below the text content before the button */
 .card-content {
     margin-bottom: 32px;
 }
 
+/* "Includes" / "Everything in Hobby" labels */
 .includes-text {
     font-size: 16px;
     color: rgba(38, 37, 30, 0.5);
     margin: 16px 0px;
 }
 
+/* List of plan features */
 .features-list {
     list-style: none;
     padding: 0;
@@ -88,6 +98,7 @@ body {
     color: #26251e;
 }
 
+/* Small check icon at the start of each feature */
 .checkmark {
     color: #26251e;
     font-size: 14px;
@@ -95,6 +106,7 @@ body {
     font-weight: 400;
 }
 
+/* Base button style shared by all call‑to‑action buttons */
 .download-button {
     margin-top: auto;
     width: fit-content;
@@ -109,6 +121,7 @@ body {
     transition: background-color 0.2s ease;
 }
 
+/* Hover and active states for the neutral button */
 .download-button:hover {
     background-color: #D8D6CE;
 }
@@ -117,6 +130,7 @@ body {
     background-color: #D8D6CE;
 }
 
+/* Solid dark button used for the main Pro CTA */
 .download-button.primary {
     background-color: #111;
     color: #fff;
@@ -130,6 +144,7 @@ body {
     background-color: #333;
 }
 
+/* Outline-style button variant (not used yet in HTML) */
 .download-button.outline {
     background-color: #ffffff;
     border: 2px solid #828337; 
@@ -145,6 +160,7 @@ body {
     border: 2px solid#828337; 
 }
 
+/* Fixed label at the top of the viewport describing the page */
 .page-label {
     position: fixed;
     top: 16px;
