@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Page meta + fonts and main stylesheet -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pricing Plans — HTML version</title>
+    <!-- Google Fonts: Inter typeface used for all text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Main CSS file that controls layout and card styling -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Small fixed badge to show this is the static HTML version -->
     <p class="page-label"><strong>HTML version</strong> — static markup</p>
+    <!-- Container that lines up all pricing cards -->
     <div class="cards-container">
+        <!-- Hobby plan card -->
         <div class="card">
             <div class="card-top">
+                <!-- Card heading and price line -->
                 <h3 class="card-title">Hobby</h3>
                 <p class="card-price">
                     <span class="card-price-amount">Free</span>
                 </p>
+                <!-- Short description + feature list for Hobby -->
                 <div class="card-content">
                     <p class="includes-text">Includes:</p>
                     <ul class="features-list">
@@ -36,15 +44,19 @@
                     </ul>
                 </div>
             </div>
+            <!-- Secondary style button for the free plan -->
             <button class="download-button secondary">Download</button>
         </div>
+        <!-- Org plan card -->
         <div class="card">
             <div class="card-top">
+                <!-- Pro heading and monthly price -->
                 <h3 class="card-title">Pro</h3>
                 <p class="card-price">
                     <span class="card-price-amount">$20</span>
                     <span class="card-price-period">/mo.</span>
                 </p>
+                <!-- Pro plan extras compared to Hobby -->
                 <div class="card-content">
                     <p class="includes-text">Everything in Hobby, plus:</p>
                     <ul class="features-list">
@@ -67,9 +79,44 @@
                     </ul>
                 </div>
             </div>
+            <!-- Primary call‑to‑action button for the Pro plan -->
             <button class="download-button primary">Get Pro</button>
         </div>
-        
+               <!-- Org plan card -->
+               <div class="card">
+                <div class="card-top">
+                    <!-- Org heading and monthly price -->
+                    <h3 class="card-title">Org</h3>
+                    <p class="card-price">
+                        <span class="card-price-amount">$40</span>
+                        <span class="card-price-period">/mo.</span>
+                    </p>
+                    <!-- Pro plan extras compared to Pro -->
+                    <div class="card-content">
+                        <p class="includes-text">Everything in Pro, plus:</p>
+                        <ul class="features-list">
+                            <li>
+                                <span class="checkmark">✓</span>
+                                Extended limits on Agent
+                            </li>
+                            <li>
+                                <span class="checkmark">✓</span>
+                                Unlimited Tab completions
+                            </li>
+                            <li>
+                                <span class="checkmark">✓</span>
+                                Background Agents
+                            </li>
+                            <li>
+                                <span class="checkmark">✓</span>
+                                Maximum context windows
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Primary call‑to‑action button for the Org plan -->
+                <button class="download-button primary">Get Org</button>
+            </div> 
     </div>
 </body>
 </html>
