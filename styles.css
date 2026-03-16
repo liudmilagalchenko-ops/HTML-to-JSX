@@ -99,7 +99,7 @@ body {
     margin-top: auto;
     width: fit-content;
     background-color: #e6e5e0;
-    border: none;
+    border: 2px solid#aaaaaa; 
     border-radius: 999px;
     padding: 14px 24px;
     font-size: 16px;
@@ -111,38 +111,43 @@ body {
 
 .download-button:hover {
     background-color: #D8D6CE;
+    border: 2px solid#aaaaaa; 
 }
 
 .download-button:active {
     background-color: #D8D6CE;
+    border: 2px solid#aaaaaa; 
 }
 
 .download-button.primary {
     background-color: #111;
     color: #fff;
+    border: 2px solid#111; 
 }
 
 .download-button.primary:hover {
     background-color: #333;
+    border: 2px solid#333; 
 }
 
 .download-button.primary:active {
     background-color: #333;
+    border: 2px solid#333; 
 }
 
-.download-button.outline {
+.download-button.tertiary {
     background-color: #ffffff;
-    border: 2px solid #828337; 
+    border: 2px solid #aaaaaa; 
 }
 
-.download-button.outline:active {
+.download-button.tertiary:active {
     background-color: #ffffff;
-    border: 2px solid #828337; 
+    border: 2px solid #aaaaaa; 
 }
 
-.download-button.outline:hover {
+.download-button.tertiary:hover {
     background-color: #e2e2e2;
-    border: 2px solid#828337; 
+    border: 2px solid#aaaaaa; 
 }
 
 .page-label {
